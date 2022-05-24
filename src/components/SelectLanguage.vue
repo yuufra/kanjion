@@ -94,9 +94,9 @@ caption {
     padding: 5px;
 }
 article, section {
-    width: 600px;
     margin: 0 auto;
     text-align: left;
+    max-width: 700px;
 }
 #container {
     padding: 0px 20px;
@@ -104,5 +104,6 @@ article, section {
 .table-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 </style>

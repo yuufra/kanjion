@@ -104,8 +104,14 @@
 <style>
 .table-en tr th {
     font-size: small;
+    word-break: break-all;
 }
 .table-en + p {
     text-align: left;
+}
+@media screen and (max-width: 480px) {
+    .table-en tr th {
+        padding: 0px;
+    }
 }
 </style>
